@@ -1,0 +1,32 @@
+<ion-view title="SalesMan">
+	<ion-content>
+        <div>
+		<form class="foru" ng-submit="signupUsersaleman($event)">
+			<div class="list">
+				<label class="item item-input">
+					<span class="input-label">First Name</span>
+					<input type="text" ng-model = "user.FirstName">
+				</label>
+				<label class="item item-input">
+					<span class="input-label">Last Name</span>
+					<input type="text" ng-model = "user.LastName">
+				</label>
+				<label class="item item-input">
+					<span class="input-label">Email</span>
+					<input type="text"  ng-model = "user.Email">
+				</label>
+				<label class="item item-input">
+					<span class="input-label">Password</span>
+					<input type="password" ng-model = "user.Password">
+				</label>
+			</div>
+			
+			
+			<div class="button-bar">
+				<button class="button button-positive" ui-serf="AddSalesman" type="submit" >SignUp</button>
+	
+			</div>
+		</form>
+        </div>
+	</ion-content>
+</ion-view>

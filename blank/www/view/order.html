@@ -1,0 +1,24 @@
+
+<div class="bar bar-header bar-positive">
+  <h1 class="title">Order Informtion</h1>
+</div>
+<form ng-submit="placeOrders()">
+</br>
+</br>
+</br>
+<div class="list">
+  <label class="item item-input">
+    <input type="text" placeholder="Client Name" ng-model="user.UserName">
+  </label>
+  
+  <label class="item item-input">
+    <input type="text" placeholder="Order Name" ng-model="user.OrderName">
+  </label>
+   <label class="item item-input">
+    <input type="number" placeholder="Order Quantity" ng-model="orders.Quantity">
+  </label>
+</div>
+<button class="button button-full button-positive" type="done">
+  Done 
+</button>
+</form>
